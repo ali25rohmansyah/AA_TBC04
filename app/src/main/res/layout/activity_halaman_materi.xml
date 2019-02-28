@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HalamanMateri"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="start"
+            android:background="@color/colorPrimary"
+            >
+            <ImageButton
+                android:id="@+id/backImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_navigate_before_white_24dp"
+                android:padding="18dp"
+                android:background="@color/colorPrimary"
+                android:contentDescription="TODO" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/judul_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JUDUL"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/Black"
+            />
+        <ImageView
+            android:id="@+id/materi_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_clear_black_24dp"
+            android:paddingBottom="25dp"
+            android:contentDescription="TODO" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="25dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/materi_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black"
+                    android:text="Materi"
+                    android:textSize="25sp"
+                    android:textAlignment="textStart"
+                    android:gravity="end"
+                    android:layout_marginTop="18dp"
+                    android:paddingBottom="15dp"
+                    android:layout_margin="10dp"/>
+
+
+            </ScrollView>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

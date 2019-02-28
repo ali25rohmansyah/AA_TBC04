@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/beranda"
+            android:icon="@drawable/beranda"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/adminaja"
+            android:title="Halaman Admin"
+            android:icon="@drawable/admin"/>
+        <item
+            android:id="@+id/buku"
+            android:icon="@drawable/bukusaku"
+            android:title="Buku Saku" />
+        <item
+            android:id="@+id/alarm"
+            android:icon="@drawable/alarm"
+            android:title="Set Alarm" />
+        <item
+            android:id="@+id/kalender"
+            android:icon="@drawable/kalender"
+            android:title="Kalender" />
+        <item
+            android:id="@+id/biodata"
+            android:icon="@drawable/person"
+            android:title="Biodata" />
+    </group>
+
+</menu>

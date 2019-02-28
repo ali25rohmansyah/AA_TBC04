@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/r_xray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="X-Ray" />
+
+        <RadioButton
+            android:id="@+id/r_dahak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Test Dahak" />
+
+        <RadioButton
+            android:id="@+id/r_darah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Test Darah" />
+
+        <RadioButton
+            android:id="@+id/r_konsultasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Konsultasi Dokter" />
+
+    </RadioGroup>
+    <EditText
+        android:id="@+id/edt_kota"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Catatan" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_batal"
+            android:text="Batal"
+            android:textColor="@color/White"
+            android:background="@color/colorAccent"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:text="Simpan"
+            android:textColor="@color/White"
+            android:background="@color/colorAccent"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

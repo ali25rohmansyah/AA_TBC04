@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLogin">
+
+    <ImageView
+        android:id="@+id/gambar_admin"
+        android:src="@drawable/boy"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="130dp"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etPasswordLayout"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="70dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/password_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="masukkan password"
+            android:inputType="textPassword"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:background="@drawable/buttonstylegradient"
+        android:id="@+id/button_admin"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="140dp"
+        android:text="Login"/>
+
+</RelativeLayout>
